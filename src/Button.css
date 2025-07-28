@@ -1,0 +1,11 @@
+.button {
+    background-color: var(--btn--bg-color);
+    color: var(--btn--text-color);
+    border-radius: var(--btn--border-rad);
+    border: var(--btn--stroke-weight) var(--btn--stroke-style) solid var(--btn--stroke-color);
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: var(--btn--bg-color--hover);
+}

@@ -1,0 +1,28 @@
+:root {
+    /* Color primatives */
+    --color--white: #FFFFFF;
+    --color--light-grey: #F1F3D8;
+    --color--dark-grey: #21282B;
+    --color--cream: #F1F3D8;
+    --color--colbalt: #4E5E65;
+    --color--yellowy-green: #D5DB8A;
+    --color--gold: #D2A64D;
+    
+    /* Tokens */
+    --florish: var(--color--gold);
+
+
+    /* Tokens -- Button */
+    --btn--text-color: var(--color--dark-grey);
+    --btn--bg-color: var(--color--cream);
+    --btn--stroke-color: var(--color--yellowy-green);
+    --btn--stroke-weight: 2px;
+    --btn--stroke-style: solid;
+    --btn--bg-color--hover: var(--color--yellowy-green); 
+    --btn--outline: var(--color--dark-grey);
+    --btn--border-rad: 50px;
+}
+
+body {
+    background-color: var(--color--white);
+}
