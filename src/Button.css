@@ -4,6 +4,8 @@
     border-radius: var(--btn--border-rad);
     border: var(--btn--stroke-weight) var(--btn--stroke-style) solid var(--btn--stroke-color);
     text-transform: uppercase;
+    padding: 8px 24px;
+    cursor: pointer;
 }
 
 .button:hover {

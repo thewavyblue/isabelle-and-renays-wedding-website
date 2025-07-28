@@ -1,0 +1,9 @@
+.divider {
+    width: 100%;
+    display: flex;
+}
+
+.divider img {
+    margin: 0 auto;
+    width: 38px;
+}

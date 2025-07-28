@@ -1,0 +1,32 @@
+.countdown {
+    background-color: var(--color--light-grey);
+    color: var(--color--cobalt);
+    height: 135px;
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+
+    @media  and (min-width: 576px) {
+        border-radius: 8px;
+    }
+}
+
+.wrapper__counter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 4rem;
+}
+
+.counter span {
+    font-size: 2rem;
+}
+
