@@ -3,14 +3,20 @@ import Button from './Button';
 import NavBar from './NavBar';
 import Divider from './Divider';
 import Countdown from './Countdown';
+import IMAGES from './img/Images';
+import Polaroids from './Polaroids';
+import polaroidImages from './ImageList';
 import './App.css';
 
 function App() {
 
   return (
     <>
-      <NavBar />
-      <p className="font__playfair-display">
+      <div className="wrapper__img">
+        <img src={IMAGES.floralFooter} alt="Footer image" style={{transform:"scaleY(-1) scaleX(-1)"}}/>
+      </div>
+      {/* <NavBar /> */}
+      <p className='p-lrg'>
         Welcome to the wed-site of
       </p>
       <Divider />
@@ -22,7 +28,8 @@ function App() {
       <Divider />
       <Countdown />
       <Button link={"#intro"} buttonLabel={"Jump to info"}/>
-      <div className="wrapper__content">
+      <Polaroids images={polaroidImages} />
+      <div className="wrapper__content" id='intro'>
         <p className="p-lrg">
           We joyfully request the pleasure of your company as we speak our vows and join in marriage in the presence of family and friends.
         </p>
@@ -129,9 +136,12 @@ function App() {
           </p>
         </div>
       </div>
-      <p style={{color:"#4e5e657c", fontSize:12}}>
-        © 2025. Designed and developed by Ben, the BIL.
-      </p>
+      <div className="wrapper__img">
+        <img src={IMAGES.floralFooter} alt="Footer image" />
+        <p style={{color:"#4e5e657c", fontSize:12, marginTop: 6}}>
+          © 2025. Designed and developed by Ben, the BIL.
+        </p>
+      </div>
     </>
   )
 }

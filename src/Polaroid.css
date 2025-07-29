@@ -1,0 +1,42 @@
+.wrapper__polaroid {
+    height: 346px;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0 4px 30px -5px rgba(202, 216, 221, 0.6);
+}
+
+.image-holder {
+    width: 100%;
+    height: 245px;
+    background-color: rgba(202, 216, 221, 0.6);
+    border-color: #CAD8DD;
+    border-width: 1px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.image-holder img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.handwriting {
+    font-size: 2.2rem;
+    font-family: "Borel", cursive;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 4rem;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0 0;
+}

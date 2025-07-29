@@ -2,7 +2,9 @@
     background-color: var(--btn--bg-color);
     color: var(--btn--text-color);
     border-radius: var(--btn--border-rad);
-    border: var(--btn--stroke-weight) var(--btn--stroke-style) solid var(--btn--stroke-color);
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--btn--stroke-color);
     text-transform: uppercase;
     padding: 8px 24px;
     cursor: pointer;
