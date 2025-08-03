@@ -14,11 +14,11 @@ function App() {
     <>
       <div className="wrapper__img">
         <img src={IMAGES.floralFooter} alt="Footer image" style={{transform:"scaleY(-1) scaleX(-1)"}}/>
+        <p className='p-lrg'>
+          Welcome to the wed-site of
+        </p>
       </div>
       {/* <NavBar /> */}
-      <p className='p-lrg'>
-        Welcome to the wed-site of
-      </p>
       <Divider />
       <h1 style={{marginLeft: 9}}>
         Isabelle<br />
@@ -45,8 +45,8 @@ function App() {
         <p className="p-lrg">
           Saturday 19th September 2026
         </p>
-        <Button link={"#intro"} buttonLabel={"Save the date (iOS)"}/>
-        <Button link={"#intro"} buttonLabel={"Save the date (Android)"}/>
+        <Button link={"https://yourdomain.com/isabelle-renay-wedding.ics"} buttonLabel={"Save the date (iOS)"}/>
+        <Button link={"https://calendar.google.com/calendar/render?action=TEMPLATE&text=Isabelle%20%26%20Renay%27s%20Wedding&dates=20260919T110000Z/20260919T120000Z"} buttonLabel={"Save the date (Google)"}/>
       </div>
       <Divider />
       <div className="wrapper__content">
@@ -62,9 +62,9 @@ function App() {
           Cranbrook<br />
           TN17 4EZ
         </p>
-        <Button link={"#intro"} buttonLabel={"Open in Google Maps"}/>
-        <Button link={"#intro"} buttonLabel={"Open in What3Words"}/>
-        <Button link={"#intro"} buttonLabel={"Open in Waze"}/>
+        <Button link={"https://maps.app.goo.gl/yzmxsyZucJW6TAnm7"} buttonLabel={"Open in Google Maps"} target={"_blank"}/>
+        <Button link={"https://w3w.co/embraced.extra.adventure"} buttonLabel={"Open in What3Words"} target={"_blank"}/>
+        <Button link={"https://www.waze.com/live-map/directions/gb/england/benenden/the-oak-barn,-frame-farm-eco-wedding-venue,-kent-and-east-sussex?to=place.ChIJsdBNEYYj30cRUj3imsI2w5g"} buttonLabel={"Open in Waze"} target={"_blank"}/>
         <div id="accommodation" className="wrapper__content">
           <h3>
             Need accommodation?
