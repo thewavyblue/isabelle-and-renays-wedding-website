@@ -4,7 +4,7 @@ import './Divider.css';
 export default function Divider() {
     return (
         <div className="divider">
-            <img src="/public/florish.svg" alt="" />
+            <img src="/src/img/florish.svg" alt="" />
         </div>
     )
 }

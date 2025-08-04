@@ -1,5 +1,14 @@
 import React from "react";
 import Polaroid from "./Polaroid";
+// import gsap from 'gsap';
+// import { useGSAP } from '@gsap/react';
+
+// gsap.registerPlugin(useGSAP);
+
+// useGSAP(() => {
+//     gsap.to(".wrapper__polaroid", { rotation: "+=360", duration: 2 });
+// });
+
 
 const Polaroids = ({images}) => {
     return (

@@ -45,7 +45,7 @@ function App() {
         <p className="p-lrg">
           Saturday 19th September 2026
         </p>
-        <Button link={"https://yourdomain.com/isabelle-renay-wedding.ics"} buttonLabel={"Save the date (iOS)"}/>
+        <Button link={"https://yourdomain.com/isabelle-renay-wedding.ics"} buttonLabel={"Save the date (iOS / Outlook)"}/>
         <Button link={"https://calendar.google.com/calendar/render?action=TEMPLATE&text=Isabelle%20%26%20Renay%27s%20Wedding&dates=20260919T110000Z/20260919T120000Z"} buttonLabel={"Save the date (Google)"}/>
       </div>
       <Divider />
