@@ -1,10 +1,11 @@
 import React from "react";
 import './Divider.css';
+import florish from './img/florish.svg';
 
 export default function Divider() {
     return (
         <div className="divider">
-            <img src="/src/img/florish.svg" alt="" />
+            <img src={florish} alt="" />
         </div>
     )
 }
