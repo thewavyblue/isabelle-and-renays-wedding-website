@@ -4,6 +4,7 @@
     padding: 15px;
     box-shadow: 0 4px 30px -5px rgba(202, 216, 221, 0.6);
     position: absolute;
+    background-color: whitesmoke;
 }
 
 .image-holder {
