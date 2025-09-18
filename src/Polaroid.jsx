@@ -1,10 +1,10 @@
 import React from "react";
 import "./Polaroid.css";
 
-export default function Polaroid({image}) {
+export default function Polaroid({image, id}) {
     
     return (
-        <div className="wrapper__polaroid">
+        <div className="container__polaroid" id={id}>
             <div className="image-holder">
                 <img src={image.src} alt=""/>
             </div>

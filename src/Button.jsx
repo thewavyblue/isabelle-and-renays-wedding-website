@@ -7,12 +7,12 @@ export default function Button({link, buttonLabel, target = "_self"}) {
   };
 
   return (
-    <>
+
       <a href={link} target={target}>
         <button onClick={onClick} className='button font__playfair-display'>
           {buttonLabel}
         </button>
       </a>
-    </>
+
   )
 }

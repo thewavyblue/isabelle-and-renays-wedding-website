@@ -1,9 +1,9 @@
-.wrapper__polaroid {
+.container__polaroid {
     height: 346px;
     width: 300px;
     padding: 15px;
     box-shadow: 0 4px 30px -5px rgba(202, 216, 221, 0.6);
-    z-index: 100;
+    position: absolute;
 }
 
 .image-holder {
