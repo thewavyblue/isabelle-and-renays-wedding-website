@@ -1,0 +1,39 @@
+.venue-card {
+    padding: 15px;
+    border: 1px solid var(--color--gold);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    & .image__accomm {
+        aspect-ratio: 16 / 9;
+        width: 100%;
+    }
+
+    & .venue-card--heading {
+        font-size: 2rem;
+        letter-spacing: unset;
+        text-transform: unset;
+        color: var(--color--dark-grey);
+        text-align: left;
+    }
+
+    & .venue-card--text {
+        text-align: left;
+
+        &.emphasis {
+            font-style: italic;
+        }
+    }
+
+    & a {
+        display: flex;
+        text-decoration: none;
+        color: unset;
+    }
+
+    & button {
+        flex: 1;
+    }
+}

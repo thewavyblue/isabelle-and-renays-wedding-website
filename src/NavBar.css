@@ -1,9 +1,0 @@
-.navbar {
-    height: 100px;
-
-    .nav-image {
-        transform: scaleY(-1) scaleX(-1);
-        position: relative;
-        z-index: 0;
-    }
-}

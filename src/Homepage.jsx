@@ -1,5 +1,4 @@
 import Button from "./Button";
-import IMAGES from './img/Images';
 import Divider from "./Divider";
 import Countdown from "./Countdown";
 import Polaroids from "./Polaroids";
@@ -116,7 +115,7 @@ export default function Homepage() {
         />
       </div>
       <Divider />
-      <div className="wrapper__content">
+      <div id="rsvp" className="wrapper__content">
         <h2>R.S.V.P</h2>
         <p className="p-lrg">
           Please let us know if you’re joining us on our special day.

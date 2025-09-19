@@ -1,7 +1,7 @@
 import React from 'react';
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter, Routes, Route, Link } from 'react-router';
+import { BrowserRouter, Routes, Route, ScrollRestoration } from 'react-router';
 import Homepage from './Homepage';
 import FormDay from './FormDay';
 import FormEve from './FormEve';

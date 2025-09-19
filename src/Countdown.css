@@ -2,7 +2,6 @@
     background-color: var(--color--light-grey);
     color: var(--color--cobalt);
     height: 135px;
-    width: 100%;
     padding: 16px;
     display: flex;
     flex-direction: column;

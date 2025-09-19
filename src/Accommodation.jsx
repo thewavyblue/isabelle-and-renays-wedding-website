@@ -1,21 +1,29 @@
-import Button from "./Button";
-import IMAGES from './img/Images';
 import Divider from "./Divider";
 import "./App.css";
+import "./Accommodation.css";
+import AccommVenueCard from "./AccommVenueCard";
+import accommVenues from "./AccommVenues";
 
-export default function Accommodation() {
+const Accommodation = () => {
+
   return (
     <div className="main-container">
       <div className="wrapper__content">
-        <h2>Accommodation</h2>
+        <h1>
+          Accommodation
+        </h1>
         <p className="p-lrg">
             Recommendations from the wedding venue owners.
         </p>
       </div>
       <Divider />
       <div id="venue-card-group" className="wrapper__content">
-        
+        {accommVenues.map((card, index) => (
+            <AccommVenueCard image={card.img} name={card.name} desc={card.desc} address={card.address} tel={card.tel} url={card.url} key={index} id={`venue-card-${index}`}/>
+        ))}
       </div>
     </div>
   );
-}
+};
+
+export default Accommodation;
