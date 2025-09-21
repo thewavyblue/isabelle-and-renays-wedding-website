@@ -7,9 +7,9 @@ import accommVenues from "./AccommVenues";
 const Accommodation = () => {
 
   return (
-    <div className="main-container">
+    <div className="main-container margin-top-of-page">
       <div className="wrapper__content">
-        <h1>
+        <h1 className="accommodation__heading">
           Accommodation
         </h1>
         <p className="p-lrg">

@@ -8,7 +8,7 @@ import "./App.css";
 
 export default function Homepage() {
   return (
-    <div className="main-container">
+    <div className="main-container margin-top-of-page">
       <div className="wrapper__img">
         <p className="p-lrg">Welcome to the wed-site of</p>
       </div>

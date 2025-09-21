@@ -3,6 +3,7 @@
     color: var(--color--cobalt);
     height: 135px;
     padding: 16px;
+    margin: 0 -16px;
     display: flex;
     flex-direction: column;
 

@@ -29,7 +29,7 @@ useLayoutEffect(() => {
         tl.from(
             images.map((_, i) => `#polaroid-${i}`),
             {
-                x: (i) => (i % 2 === 0 ? "100vw" : "-100vw"), // alternate left/right
+                x: (i) => (i % 2 === 0 ? "110vw" : "-110vw"), // alternate left/right
                 rotation: () => gsap.utils.random(-20, 20), // random tilt
                 duration: 1,
                 stagger: 0.3, // <-- makes them fly in one by one

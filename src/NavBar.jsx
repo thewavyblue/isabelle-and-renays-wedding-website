@@ -8,7 +8,7 @@ import './App.css'
 export default function NavBar() {
 
   return (
-    <div className="main-container">
+    <div className="main-container container__navbar">
       <nav className="navbar">
           <NavBtn link={"/"} buttonLabel={"Home"} />
           <NavBtn link={"/accommodation"} buttonLabel={"Accommodation"} />

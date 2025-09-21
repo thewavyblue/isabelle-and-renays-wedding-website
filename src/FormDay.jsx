@@ -4,7 +4,7 @@ import './Form.css';
 export default function FormDay() {
 
     return (
-        <div className="main-container">
+        <div className="main-container margin-top-of-page">
             <div className="wrapper__content">
                 <h2>
                     RSVP<br />Ceremony & Evening

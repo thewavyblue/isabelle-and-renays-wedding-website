@@ -1,4 +1,4 @@
-h1 {
+.accommodation__heading {
     --font-size: clamp(2.4rem, 10vw, 2.8rem);
     letter-spacing: calc(var(--font-size) * 0.1);
 }
