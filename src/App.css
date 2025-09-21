@@ -42,7 +42,7 @@ body {
     background-color: var(--color--white);
     margin: 0;
 
-    background-image: url("public/img/floral-footer-alpha-top.png"), url("public/img/floral-footer-alpha-bottom.png");
+    background-image: url("/img/floral-footer-alpha-top.png"), url("/img/floral-footer-alpha-bottom.png");
     background-repeat: no-repeat;
     background-position: top center, bottom center;
 }
