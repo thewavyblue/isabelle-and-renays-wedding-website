@@ -5,6 +5,8 @@ const IMAGES = {
     image4 : new URL('./izzy-&-renay-04.jpeg', import.meta.url).href,
     image5 : new URL('./izzy-&-renay-05.jpeg', import.meta.url).href,
     image6 : new URL('./izzy-&-renay-06.jpeg', import.meta.url).href,
+    imageHeader : new URL('./floral-footer-alpha-top.png', import.meta.url).href,
+    imageFooter : new URL('./floral-footer-alpha-bottom.png', import.meta.url).href,
     // accommImage1 : new URL('./img.jpg', import.meta.url).href,
     // accommImage2 : new URL('./img.jpg', import.meta.url).href,
     // accommImage3 : new URL('./img.jpg', import.meta.url).href,

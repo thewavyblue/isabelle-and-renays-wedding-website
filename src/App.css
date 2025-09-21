@@ -58,7 +58,7 @@ body {
         max-width: 576px;
     }
 
-    background-image: url(src/img/floral-footer-alpha-top.png), url(src/img/floral-footer-alpha-bottom.png);
+    background-image: url("src/img/floral-footer-alpha-top.png"), url("src/img/floral-footer-alpha-bottom.png");
     background-repeat: no-repeat;
     background-position: top center, bottom center;
 }

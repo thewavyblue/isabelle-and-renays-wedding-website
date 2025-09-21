@@ -8,6 +8,7 @@ import FormEve from './FormEve';
 import Accommodation from './Accommodation';
 import Footer from './Footer';
 import NavBar from './NavBar';
+import IMAGES from './img/Images';
 import './App.css';
 
 createRoot(document.getElementById('root')).render(

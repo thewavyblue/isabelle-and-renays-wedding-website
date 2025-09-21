@@ -1,10 +1,10 @@
 import "./AccommVenueCard.css"
 import Button from "./Button"
 
-const AccommVenueCard = ({img, name, desc, address, tel, url}) => {
+const AccommVenueCard = ({name, desc, address, tel, url}) => {
     return (
         <article className="venue-card">
-          <img className="image__accomm" src={img} alt="" />
+          {/* <img className="image__accomm" src={img} alt="" /> */}
           <h3 className="venue-card--heading">
             {name}
           </h3>

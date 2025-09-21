@@ -1,6 +1,12 @@
 .container__polaroids {
-    position: relative;
     margin: 0 auto;
     height: 400px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;   /* if you want multiple rows */
+    gap: 2rem;         /* spacing between polaroids */
+    min-height: 100vh; /* full viewport height for pinning */
+    position: relative;
 }
