@@ -53,7 +53,7 @@ useLayoutEffect(() => {
       ))}
     <div id="skip">
         <Button link={"#intro"} buttonLabel={"Jump to info"}/>
-    </div>
+        </div>
     </div>
   );
 };

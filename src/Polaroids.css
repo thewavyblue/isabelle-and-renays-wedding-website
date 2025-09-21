@@ -7,12 +7,13 @@
     align-items: flex-end;
     flex-wrap: wrap;   /* if you want multiple rows */
     gap: 2rem;         /* spacing between polaroids */
-    /*min-height: 100vh; /* full viewport height for pinning */
-    height: auto;       /* natural height */
+    /* height: 100vh; */
+    height: auto;
     padding-bottom: 70px !important;
     position: relative;
 }
 
 #skip {
-    margin-top: 60px;
+    position: absolute;
+    bottom: 0px;
 }

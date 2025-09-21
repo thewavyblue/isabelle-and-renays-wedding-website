@@ -53,14 +53,14 @@ body {
     box-sizing: border-box;
     background-color: var(--color--white);
     padding: 0 15px;
+    
+    background-image: url("public/img/floral-footer-alpha-top.png"), url("public/img/floral-footer-alpha-bottom.png");
+    background-repeat: no-repeat;
+    background-position: top center, bottom center;
 
     @media screen and (min-width: 576px) {
         max-width: 576px;
     }
-
-    background-image: url("src/img/floral-footer-alpha-top.png"), url("src/img/floral-footer-alpha-bottom.png");
-    background-repeat: no-repeat;
-    background-position: top center, bottom center;
 }
 
 h1, h2, h3, p, a {
@@ -87,7 +87,7 @@ h2 {
 }
 
 h3 {
-    --font-size: 2.4rem;
+    --font-size: 2.2rem;
     font-size: var(--font-size);
     letter-spacing: calc(var(--font-size) * 0.1);
 }
@@ -118,6 +118,7 @@ p, ul, li {
     z-index: 1;
     overflow: hidden;
     padding: 0 15px;
+    width: 100%;
 }
 
 .wrapper__content {
@@ -163,10 +164,6 @@ li {
     background-color: #FFFFFF;
     padding: 4px 15px;
     text-align: center;
-}
-
-.navbar {
-    height: 100px;
 }
 
 .nav-image {
