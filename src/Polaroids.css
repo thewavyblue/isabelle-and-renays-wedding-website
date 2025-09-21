@@ -9,6 +9,10 @@
     gap: 2rem;         /* spacing between polaroids */
     /*min-height: 100vh; /* full viewport height for pinning */
     height: auto;       /* natural height */
-    /* padding: 200px 0; */
+    padding-bottom: 70px !important;
     position: relative;
+}
+
+#skip {
+    margin-top: 60px;
 }

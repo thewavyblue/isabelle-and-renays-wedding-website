@@ -21,7 +21,7 @@ export default function Homepage() {
       </h1>
       <Divider />
       <Countdown />
-      <Button link={"#intro"} buttonLabel={"Jump to info"} />
+      {/* <Button link={"#intro"} buttonLabel={"Jump to info"} /> */}
       <Polaroids images={polaroidImages} />
       <div className="wrapper__content" id="intro">
         <p className="p-lrg">

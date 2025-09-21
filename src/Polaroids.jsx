@@ -1,5 +1,6 @@
 import React, { useLayoutEffect, useRef } from "react";
 import Polaroid from "./Polaroid";
+import Button from "./Button";
 import "./Polaroids.css";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -50,6 +51,9 @@ useLayoutEffect(() => {
           id={`polaroid-${index}`}
         />
       ))}
+    <div id="skip">
+        <Button link={"#intro"} buttonLabel={"Jump to info"}/>
+    </div>
     </div>
   );
 };
