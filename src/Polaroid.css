@@ -42,3 +42,27 @@
     width: 100%;
     margin: 20px 0 0;
 }
+
+#polaroid-0 {
+    rotate: -5deg;
+}
+
+#polaroid-1 {
+    rotate: 4deg;
+}
+
+#polaroid-2 {
+    rotate: -8deg;
+}
+
+#polaroid-3 {
+    rotate: 5deg;
+}
+
+#polaroid-4 {
+    rotate: -2deg;
+}
+
+#polaroid-5 {
+    rotate: 7deg;
+}
