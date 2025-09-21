@@ -21,7 +21,7 @@ useLayoutEffect(() => {
                 pin: true,   
                 pinSpacing: true,
                 pinType: "transform",
-                markers: true,      // toggle for debugging
+                // markers: true,
             },
         });
 
