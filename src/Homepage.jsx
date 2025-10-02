@@ -96,10 +96,11 @@ export default function Homepage() {
       <div className="wrapper__content">
         <h2>The Day</h2>
         <ul className="p-lrg">
-          <li>Ceremony: 12:00 – Xpm</li>
-          <li>Wedding Breakfast: X – Xpm</li>
-          <li>Evening reception: X – 11pm</li>
-          <li>Carriages: 11.30pm</li>
+          <li>Arrive: 11:30</li>
+          <li>Ceremony: 12:00</li>
+          <li>Reception: 12:30 onwards</li>
+          <li>Evening celebration: 18:30</li>
+          <li>Carriages: 23:00</li>
         </ul>
       </div>
       <Divider />
