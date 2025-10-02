@@ -22,9 +22,10 @@
 
     & a {
         text-decoration: none;
+        color: var(--btn--text-color);
+    }
 
-        &:visited {
-            color: unset;
-        }
+    & a:visited {
+        color: var(--btn--text-color);
     }
 }

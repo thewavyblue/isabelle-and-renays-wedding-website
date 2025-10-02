@@ -8,7 +8,7 @@ import "./App.css";
 
 export default function Homepage() {
   return (
-    <div className="main-container margin-top-of-page">
+    <main className="main-container margin-top-of-page">
       <div className="wrapper__img">
         <p className="p-lrg">Welcome to the wed-site of</p>
       </div>
@@ -31,6 +31,11 @@ export default function Homepage() {
         <p>
           The Oak Barn in Cranbrook will be our venue hosting the ceremony,
           breakfast, and evening celebrations. One destination that does it all.
+        </p>
+        <p className="wrapper__content box">
+          <em>
+            As much as we love your little ones, we have made the decision to make this an adult only event excluding those of the bride and groom’s immediate family. We hope you understand.
+          </em>
         </p>
       </div>
       <Divider />
@@ -78,7 +83,7 @@ export default function Homepage() {
           buttonLabel={"Open in Waze"}
           target={"_blank"}
         />
-        <div id="accommodation" className="wrapper__content">
+        <div id="accommodation" className="wrapper__content box">
           <h3>Need accommodation?</h3>
           <p>Here’s our suggestions for places to stay...</p>
           <LinkBtn
@@ -91,7 +96,7 @@ export default function Homepage() {
       <div className="wrapper__content">
         <h2>The Day</h2>
         <ul className="p-lrg">
-          <li>Ceremony: X – Xpm</li>
+          <li>Ceremony: 12:00 – Xpm</li>
           <li>Wedding Breakfast: X – Xpm</li>
           <li>Evening reception: X – 11pm</li>
           <li>Carriages: 11.30pm</li>
@@ -133,18 +138,6 @@ export default function Homepage() {
           buttonLabel={"Evening celebrations"}
         />
       </div>
-      <Divider />
-      <div className="wrapper__content">
-        <h2>Contact</h2>
-        <div>
-          <p className="p-lrg">Isabelle</p>
-          <p>07XXX XXXXXX</p>
-        </div>
-        <div>
-          <p className="p-lrg">Renay</p>
-          <p>07XXX XXXXXX</p>
-        </div>
-      </div>
-    </div>
+    </main>
   );
 }

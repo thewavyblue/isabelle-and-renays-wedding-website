@@ -8,38 +8,43 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const Polaroids = ({ images }) => {
-const comp = useRef(null);
+  const comp = useRef(null);
 
-useLayoutEffect(() => {
-    let ctx = gsap.context(() => {
-        const totalScroll = Math.max(window.innerHeight * 1.5, images.length * 450);
-        const tl = gsap.timeline({
-            scrollTrigger: {
-                trigger: comp.current,
-                start: "20% 80%",
-                end: () => `+=${totalScroll}`,      // adjust scroll distance for animation
-                scrub: true,
-                pin: true,   
-                pinSpacing: true,
-                pinType: "transform",
-                // markers: true,
-            },
-        });
+  useLayoutEffect(() => {
+  let ctx = gsap.context(() => {
+    const totalHeight = (images.length - 1) * 300;
 
-        tl.from(
-            images.map((_, i) => `#polaroid-${i}`),
-            {
-                x: (i) => (i % 2 === 0 ? "110vw" : "-110vw"), // alternate left/right
-                rotation: () => gsap.utils.random(-20, 20), // random tilt
-                duration: 1,
-                stagger: 0.3, // <-- makes them fly in one by one
-                ease: "power3.out"
-            }
-        );
-    }, comp);
+    // make container tall enough for the whole trail
+    gsap.set(".container__polaroids", { height: totalHeight + window.innerHeight });
 
-    return () => ctx.revert();
-  }, [images]);
+    images.forEach((_, i) => {
+      gsap.fromTo(
+        `#polaroid-${i}`,
+        {
+          x: i % 2 === 0 ? "110vw" : "-110vw",
+          y: 0,
+          rotation: gsap.utils.random(-20, 20),
+        },
+        {
+          x: gsap.utils.random(-50, 50),
+          y: i * 250,
+          rotation: gsap.utils.random(-15, 15),
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: ".container__polaroids",
+            start: () => `200+=${i * 250} top`, // stagger by scroll
+            end: () => `+=300`,
+            scrub: true,
+            // markers: true,
+          },
+        }
+      );
+    });
+  }, comp);
+
+  return () => ctx.revert();
+}, [images]);
+
 
   return (
     <div className="container__polaroids" ref={comp}>
@@ -52,8 +57,8 @@ useLayoutEffect(() => {
         />
       ))}
     <div id="skip">
-        <Button link={"#intro"} buttonLabel={"Jump to info"}/>
-        </div>
+      <Button link={"#intro"} buttonLabel={"Jump to info"}/>
+      </div>
     </div>
   );
 };

@@ -131,14 +131,13 @@ p, ul, li {
     gap: 12px;
     width: 100%;
     box-sizing: border-box;
-}
 
-
-#accommodation {
-    background-color: var(--color--light-grey);
-    padding: 16px 16px;
-    border-radius: 8px;
-    margin: 16px 0 0;
+    &.box {
+        background-color: var(--color--light-grey);
+        padding: 16px 16px;
+        border-radius: 8px;
+        margin: 16px 0 0;
+    }
 }
 
 ul {
