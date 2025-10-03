@@ -110,9 +110,7 @@ export default function Homepage() {
           Your presence and company at our special day is enough.
         </p>
         <p>
-          If you’d like to contribute to one of our selected gifts or causes, we
-          would consider this a huge act of generosity that we would be forever
-          grateful for.
+          However if you’d like to give a gift we’d be immensely grateful. We have put together a list of items to help set us up for married life here…
         </p>
         <Button
           link={"https://www.johnlewis.com/wish-list/MVTTVHN"}
@@ -127,8 +125,7 @@ export default function Homepage() {
           Please let us know if you’re joining us on our special day.
         </p>
         <p>
-          Make sure to R.S.V.P for each person on your invitation. This enables
-          us to understand numbers and dietary requirements.
+          Make sure to R.S.V.P by <strong>1st February 2026</strong> for each person on your invitation. This enables us to understand numbers and dietary requirements.
         </p>
         <LinkBtn
           link={"/form-day"}

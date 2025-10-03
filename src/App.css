@@ -92,6 +92,10 @@ h3 {
     letter-spacing: calc(var(--font-size) * 0.1);
 }
 
+strong {
+    font-weight: bold;
+}
+
 .p-lrg {
     font-size: 2rem;
 }
