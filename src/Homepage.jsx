@@ -43,7 +43,7 @@ export default function Homepage() {
         <h2>When</h2>
         <p className="p-lrg">Saturday 19th September 2026</p>
         <Button
-          link={"https://yourdomain.com/isabelle-renay-wedding.ics"}
+          link={"/wedding-invitation.ics"}
           buttonLabel={"Save the date (iOS / Outlook)"}
         />
         <Button
