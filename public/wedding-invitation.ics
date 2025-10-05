@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//1066Kitchens//WeddingEvent//EN
+PRODID:-//izzy-and-renay//WeddingEvent//EN
 BEGIN:VTIMEZONE
 TZID:Europe/London
 X-LIC-LOCATION:Europe/London
@@ -24,6 +24,6 @@ SUMMARY:Isabelle & Renay's Wedding
 DTSTART;TZID=Europe/London:20260919T120000
 DTEND;TZID=Europe/London:20260919T230000
 DESCRIPTION:You're invited to celebrate the big day!
-LOCATION:Your Wedding Venue Name Here
+LOCATION:Oak Barn, Frame Farm, Cranbrook, TN17 4EZ
 END:VEVENT
 END:VCALENDAR
