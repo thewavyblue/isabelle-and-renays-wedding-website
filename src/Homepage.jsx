@@ -114,7 +114,7 @@ export default function Homepage() {
         </p>
         <Button
           link={"https://www.johnlewis.com/wish-list/MVTTVHN"}
-          buttonLabel={"Contribute gifts"}
+          buttonLabel={"Our wishlist"}
           target={"_blank"}
         />
       </div>
